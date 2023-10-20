@@ -54,7 +54,7 @@ def signup():
         password = ''.join(random.choice(string.ascii_letters) for i in range(0, 8))
 
         # Default registration link
-        link = 'https://mahidharuniversity.ac.in/portal'
+        link = 'https://gkv.ac.in'
 
         print(password)
 
@@ -96,14 +96,14 @@ def signup():
                         "subject": "Student Account Details"
                     }
                 ],
-                "from": {"email": "shivam@thesmartbridge.com"},
+                "from": {"email": "216301031@gkv,ac.com"},
                 "content": [
                     {
                         "type": "text/plain",
-                        "value": "Dear {} ,  \n Welcome to Smartbridge University, Here are the details to log in to your student portal:\n"
+                        "value": "Dear {} ,  \n Welcome to Grukul kangri University, Here are the details to log in to your student portal:\n"
                                  "Your Username: {} \n  Password: {}  \n"
-                                 "Thank you \n Sincerely\n Office of Admissions\n Smartbridge University \n"
-                                 "E-Mail: admission@smartbridgeuniversity.ac.in ; Website: www.smartinternz.com"
+                                 "Thank you \n Sincerely\n Office of Admissions\n Grukul kangri University \n"
+                                 "E-Mail: admission@gkv.ac.in ; Website: www.gkv.ac.in"
                                  .format(name, username, password)
                     }
                 ]
